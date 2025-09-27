@@ -31,6 +31,10 @@ public class EnemyController : MonoBehaviour
     [Header("Ataque")]
     public int dano = 10;
 
+    [Header("Áudio de Ataque")]
+    public AudioClip somDeAtaque;
+    private AudioSource audioSource;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -45,6 +49,9 @@ public class EnemyController : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        // Pega o componente AudioSource
+        audioSource = GetComponent<AudioSource>();
 
         // Lógica para iniciar em movimento ou em Idle
         if (iniciaEmMovimento)
@@ -90,6 +97,11 @@ public class EnemyController : MonoBehaviour
 
             if (Time.time >= nextAttackTime)
             {
+                // Toca o som do soco/golpe
+                if (audioSource != null && somDeAtaque != null)
+                {
+                    audioSource.PlayOneShot(somDeAtaque);
+                }
                 Debug.Log("Zumbi atacando!");
                 Rigidbody playerRb = player.GetComponent<Rigidbody>();
                 if (playerRb != null)

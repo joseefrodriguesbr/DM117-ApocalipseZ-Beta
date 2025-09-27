@@ -55,11 +55,18 @@ public class PlayerController : MonoBehaviour
     private bool estaNoChao = true;     // Mecânica  de pulo implementada, mas não relevante para o jogo
     public float fallMultiplier = 2.5f; // Multiplicador para a gravidade na queda
 
+    [Header("Audio")] //
+    public AudioClip somDeTiro;
+    private AudioSource audioSource;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         playerInput = GetComponent<PlayerInput>();
         animator = GetComponent<Animator>();
+        // Inicializa o AudioSource
+        audioSource = GetComponent<AudioSource>();
+
         moveAction = playerInput.actions["Move"];
         shootAction = playerInput.actions["Attack"]; // Assine a ação "Shoot"
         jumpAction = playerInput.actions["Jump"];   // Mecânica  de pulo implementada, mas não relevante para o jogo
@@ -218,6 +225,12 @@ public class PlayerController : MonoBehaviour
 
             // Instancia do projétil na posição do ponto de tiro
             Instantiate(prefabProjetil, pontoDeTiro.position, direcaoTiro);
+
+            // Toca o som do tiro
+            if (audioSource != null && somDeTiro != null)
+            {
+                audioSource.PlayOneShot(somDeTiro);
+            }
         }
     }
 
