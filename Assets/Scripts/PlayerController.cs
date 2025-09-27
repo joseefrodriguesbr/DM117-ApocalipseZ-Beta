@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
 
     // --- Variáveis de Contagem
     private int zumbisEliminados = 0;
+    private int metaEliminacao = 10;
     public TextMeshProUGUI contadorZumbisTexto;
 
     private bool estaNoChao = true;     // Mecânica  de pulo implementada, mas não relevante para o jogo
@@ -198,8 +199,8 @@ public class PlayerController : MonoBehaviour
         // Verifica se o objeto com o qual o jogador colidiu tem a tag "ZonaDeSaida"
         if (other.gameObject.CompareTag("ZonaDeSaida"))
         {
-            // Checa se o número de zumbis eliminados é maior que 3
-            if (zumbisEliminados >= 3)
+            // Checa se o número de zumbis eliminados é maior que a meta de eliminacao
+            if (zumbisEliminados >= metaEliminacao)
             {
                 Debug.Log("Fase concluida!");
                 // Se as duas condições forem verdadeiras, mostra o painel de "Fase Concluída"
