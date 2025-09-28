@@ -41,7 +41,7 @@ jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 ## 📌 Controles
 * Setas direcionas do teclado para movimentação do player
 * Botão CTRL para tiro
-* Botão Espaço para pular (física não ajustada para essa mecânica)
+* Botão Espaço para pular (implementado, mas não relevante no jogo/física não ajustada para essa mecânica)
 
 ## 📌 Objetivo da fase
 * Eliminar 10 ou mais zumbis
