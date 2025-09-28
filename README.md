@@ -50,31 +50,37 @@ jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 <img style="margin-right: 30px" src="./Tela5.jpg" width="1080px" alt="Conclusão da fase"/><br> 
 
 ## 📌 Detalhamento da solução
-#### 📂 Estrutura de pastas do projeto
+#### 📂 Estrutura de pastas dos assets
 ```
-📦estoque
- ┗📂src
-   ┣📂node_modules                 # Diretório onde o npm (Node Package Manager) instala todas as dependências do projeto.
-   ┣📂controllers             		 
-   ┃ ┣📜AuthController.js          # Responsável pela comunicação com o serviço auth
-   ┃ ┗📜EstoqueController.js       # Responsável por atender às requisições do CRUD do serviço Estoque
-   ┣📂database
-   ┃ ┗📜config.js                  # Configurações do MongoDB
-   ┣📂logger                      
-   ┃ ┗📜index.js                   # Responsável pelo registro de logs (não utilizado)
-   ┣📂models                      
-   ┃ ┗📜Produto.js                 # Entidade que conterá os campos a serem manipulados pelo CRUD
-   ┣📂service           	 
-   ┃ ┗📜AlarmeService.js           # Responsável pela comunicação de alarmes ao serviço monitor
-   ┣📜.dockerignore                # Informa ao Docker quais arquivos e pastas devem ser ignorados
-   ┣📜.env                         # Aramazenamento de variáveis de ambiente
-   ┣📜.gitignore                   # Informa ao Docker quais arquivos e pastas devem ser ignorados
-   ┣📜Dockerfile                   # Define os passos para a criação de uma imagem Docker
-   ┣📜index.js                     # Ponto de entrada principal da aplicação
-   ┣📜nodemon.json                 # Configura o comportamento do Nodemon sempre que detecta mudanças nos arquivos
-   ┣📜package-lock.json            # Arquivo gerado automaticamente que registra as versões das dependências instaladas
-   ┣📜package.json                 # Arquivo de configuração principal. Define informações do projeto, dependências e scripts
-   ┗📜routes.js                    # Define, organiza e centraliza as rotas da aplicação
+📦DM117-ApocalipseZ-Beta
+ ┗📂Assets
+   ┣📂Abandoned buildings                          # Asset baixado disponibilizando vários prédios abandonados
+   ┣📂Animations             		 
+   ┃ ┣📜EnemyAnimController.controller             # Responsável pelas animaçõs dos inimigos(zumbis)
+   ┃ ┗📜PlayerAnimController.controller            # Responsável pelas animaçõs do Player
+   ┣📂BattleRoyaleDuoPAPBR                         # Asset baixado disponibilizando utilizado para compor o player
+   ┣📂GabrielAguiarProductions                     # Asset baixado disponibilizando magias, tiros e poderes
+   ┣📂Halloween Game Music Pack                    # Asset baixado disponibilizando música de fundo
+   ┣📂pixel horror abandoned rural  train station  # Asset baixado disponibilizando terreno e cenário         	 
+   ┣📂Prefabs             		        
+   ┃ ┣📜InimigoZombie.prefab                       # Prefab que é utilizado na caracterização dos inimigos (zumbis)
+   ┃ ┣📜Player.prefab                              # Prefab que é utilizado na caracterização do Player
+   ┃ ┣📜Projetil.prefab                            # Prefab utilizado para construir e testar o tiro
+   ┃ ┗📜ProjetilFlame.prefab                       # Prefab que é utilizado na caracterização do tiro flamejante
+   ┣📂Scenes             		 
+   ┃ ┣📜MainMenu.unity                             # Cena com do Menu principal
+   ┃ ┗📜MainScene.unity                            # Cena da execução do jogo
+   ┣📂Scripts             		 
+   ┃ ┣📜EnemyController.cs                         # Script responsável pelo comportamento e mecânica de movimento dos inimigos (zumbis)
+   ┃ ┣📜MainMenuController.cs                      # Script responsável pelas ações do Menu Principal
+   ┃ ┣📜PainelIntroScript.cs                       # Script responsável pelas orientações no início da fase
+   ┃ ┣📜PlayerController.cs                        # Script responsável pelo comportamento e mecânica de movimento do Player
+   ┃ ┗📜ProjetilController.cs                      # Script responsável pelo comportamento e mecânica de tiro
+   ┣📂ShootingSound                                # Asset baixado disponibilizando sons de tiro         
+   ┣📂SnoozyRat                                    # Asset baixado disponibilizando estátuas usadas na composição do cenário
+   ┣📂Sprites                		 
+   ┃ ┗📜BackgroundImage.jpeg                       # Imagem de fundo Menu Principal
+   ┗📂Supercyan Character Pack Zombie Samples     # Asset baixado disponibilizando utilizado para compor os inimigos (zumbis)
 ```
 
   
