@@ -4,14 +4,13 @@
 ## DM117 – Desenvolvimento de jogos com Unity
 
 ## Projeto Final da Disciplina : 
-Implementação do jogo "Apocalipse Z: O Protótipo"
-
+Implementação do jogo **Apocalipse Z: O Protótipo**
 ### 👤 Autor: 
 José Enderson Ferreira Rodrigues   
 jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 
 ## 📌 Descrição do jogo
-Apocalipse Z: O Protótipo é um protótipo de jogo de ação e sobrevivência em terceira pessoa, onde o jogador assume o papel de um sobrevivente em um mundo pós-apocalíptico dominado por zumbis. A fantasia principal é a de lutar contra todas as adversidades para sobreviver, explorando um mundo hostil e enfrentando ameaça de zumbis. O objetivo principal deste projeto é testar e validar as mecânicas centrais de movimento, combate e confronto com inimigos. A experiência de jogo será focada em um cenário de combate básico contra zumbis, provando a viabilidade do conceito do jogo.
+**Apocalipse Z: O Protótipo** é um protótipo de jogo de ação e sobrevivência em terceira pessoa, onde o jogador assume o papel de um sobrevivente em um mundo pós-apocalíptico dominado por zumbis. A fantasia principal é a de lutar contra todas as adversidades para sobreviver, explorando um mundo hostil e enfrentando ameaça de zumbis. O objetivo principal deste projeto é testar e validar as mecânicas centrais de movimento, combate e confronto com inimigos. A experiência de jogo será focada em um cenário de combate básico contra zumbis, provando a viabilidade do conceito do jogo.
 
 ## 📌 Requisitos atendidos
 
