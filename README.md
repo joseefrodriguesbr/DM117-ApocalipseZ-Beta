@@ -44,10 +44,10 @@ jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 * Botão Espaço para pular (física não ajustada para essa mecânica)
 
 ## 📌 Imagens do jogo
-<img style="margin-right: 30px" src="./Tela1.jpg" width="800px" alt="Menu Principal"/><br>  
-<img style="margin-right: 30px" src="./Tela2.jpg" width="600px" alt="Objetivo da fase"/><br>  
-<img style="margin-right: 30px" src="./Tela3.jpg" width="600px" alt="Gameplay"/><br>  
-<img style="margin-right: 30px" src="./Tela5.jpg" width="600px" alt="Conclusão da fase"/><br> 
+<img style="margin-right: 30px" src="./Tela1.jpg" width="1080px" alt="Menu Principal"/><br>  
+<img style="margin-right: 30px" src="./Tela2.jpg" width="1080px" alt="Objetivo da fase"/><br>  
+<img style="margin-right: 30px" src="./Tela3.jpg" width="1080px" alt="Gameplay"/><br>  
+<img style="margin-right: 30px" src="./Tela5.jpg" width="1080px" alt="Conclusão da fase"/><br> 
 
 ## 📌 Detalhamento da solução
 #### 📂 Estrutura de pastas do projeto
