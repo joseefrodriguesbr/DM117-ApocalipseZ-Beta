@@ -43,6 +43,10 @@ jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 * Botão CTRL para tiro
 * Botão Espaço para pular (física não ajustada para essa mecânica)
 
+## 📌 Objetivo da fase
+* Eliminar 10 ou mais zumbis
+* Alcançar o túnel e contrar a estátua ao final da linha férrea
+
 ## 📌 Imagens do jogo
 <img style="margin-right: 30px" src="./Tela1.jpg" width="1080px" alt="Menu Principal"/><br>  
 <img style="margin-right: 30px" src="./Tela2.jpg" width="1080px" alt="Objetivo da fase"/><br>  
